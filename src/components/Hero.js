@@ -1,9 +1,15 @@
 import React from 'react';
-import { ReactTyped, Typed     } from 'react-typed'; 
+import { ReactTyped     } from 'react-typed'; 
+import heroBackground from '../assets/images/hero-bg.jpg';
 
 const Hero = () => {
+
+    const claudeBackGround = { 
+        backgroundImage: `url(${heroBackground})`
+      };
+
   return (
-    <div id="hero" className="hero route bg-image" style={{backgroundImage: "url(assets/img/hero-bg.jpg)"}}>
+    <div id="hero" className="hero route bg-image" style={claudeBackGround}>
       <div className="overlay-itro"></div>
       <div className="hero-content display-table">
         <div className="table-cell">
