@@ -11,7 +11,7 @@ const About = () => {
     }
 
     return (
-        <section id="section" className="about-mf sect-p4 route">
+        <section id="about" className="about-mf sect-p4 route">
             <div className="container">
                 <div className="row">
                     <div className="col">
