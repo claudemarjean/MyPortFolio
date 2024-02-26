@@ -1,5 +1,6 @@
 import React from "react";
 import profileImage from '../../assets/images/profileImage.jpg';
+import chearchIdea from '../../assets/animations/chearchIdea.gif';
 
 const About = () => {
 
@@ -8,6 +9,10 @@ const About = () => {
         'aria-valuenow' : '75',
         'aria-valuemin' : '0',
         'aria-valuemax' : '100'
+    }
+
+    const styleChearchIdea = {
+        width: '60%'
     }
 
     return (
@@ -66,6 +71,9 @@ const About = () => {
                                                 <li><a href="https://www.linkedin.com/in/marjean-claude-andriamahatradraibe"><span className="ico-circle"><i className="bi bi-linkedin"></i></span></a></li>
                                             </ul>
                                         </div>
+                                        <div >
+                                            <img src={chearchIdea} style={styleChearchIdea}/>
+                                        </div>
                                     </div>
                                 </div>
                                 <div className="col-md-6 text-start">
@@ -80,7 +88,6 @@ const About = () => {
                                         <div><span>CSS</span></div>
                                         <div><span>JQuery</span></div>
                                         <div><span>React JS</span></div>
-                                        <div><span>D3 JS</span></div>
                                         <div><span>Symfony</span></div>
                                         <div><span>Code Igniter</span></div>
                                         <hr/>
@@ -89,9 +96,6 @@ const About = () => {
                                         <hr/>
                                         <div><span><b>Modeling language</b></span></div>
                                         <div><span>UML</span>
-                                        <hr/>
-                                        <div><span><b>Modeling language</b></span></div>
-                                        <div><span>UML</span></div>
                                         <hr/>
                                         <div><span><b>versioning system</b></span></div>
                                         <div><span>Git</span></div>
