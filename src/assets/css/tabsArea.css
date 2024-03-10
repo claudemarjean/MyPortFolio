@@ -1,0 +1,8 @@
+.mytabs_area {
+    background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+    background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+
+.p_120 {
+     padding-top: 120px;
+    padding-bottom: 120px; }
