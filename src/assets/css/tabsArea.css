@@ -74,7 +74,7 @@
               color: rgba(255, 255, 255, 0.75);
               margin-bottom: 0px;
               padding-top: 20px; }
-          .tabs_inner .tab-content .tab-pane .list li  h4 {
+          .tabs_inner .tab-content .tab-pane .list li  h5 {
             color: #fff;
             font-size: 21px;
             text-transform: uppercase;
@@ -96,7 +96,7 @@
 .media-body{
     align-self: center;
     justify-content: center;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 20px;
     color: #222222;
     margin-bottom: 10%;

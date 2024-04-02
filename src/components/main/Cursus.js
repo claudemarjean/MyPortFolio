@@ -1,6 +1,34 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Cursus = () => {
+	const [experiences, setExperiences] = useState([
+		{
+			date: "Avril 2022 jusqu'à ce jour",
+			title: "Développeur web Full Stack (PHP-JS)",
+			description: "Développement de logiciel comptable avec Angular JS, CodeIgniter, jQuery, MySQL, HMVC."
+		},
+		{
+			date: "Avril 2022 jusqu'à ce jour",
+			title: "Développeur web Full Stack (PHP-JS)",
+			description: "Développement de logiciel comptable avec Angular JS, CodeIgniter, jQuery, MySQL, HMVC."
+		},
+	]);
+
+	const experienceItems = experiences.map((experience,index)=>(
+		<li key={index}>
+			<span></span>
+			<div className='media'>
+				<div className='d-flex'>
+					<p>{experience.date}</p>
+				</div>
+				<div className='media-body'>
+					<h5>{experience.title}</h5>
+					<p>{experience.description}</p>
+				</div>
+			</div>
+		</li>
+	));
+
   return (
     <section className="mytabs_area p_120">
         	<div className="container">
@@ -16,20 +44,9 @@ const Cursus = () => {
 					<div className="tab-content" id="myTabContent">
 						<div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
 							<ul className="list">
-								<li>
-									<span></span>
-									<div className="media">
-										<div className="d-flex">
-											<p>March 2017 to present</p>
-										</div>
-										<div className="media-body">
-											<h4>Colorlib</h4>
-											<p>Senior Web Developer <br />Santa monica, Los angeles</p>
-										</div>
-									</div>
-								</li>
-								
+								{experienceItems}
 							</ul>
+							
 						</div>
 						
 					</div>
