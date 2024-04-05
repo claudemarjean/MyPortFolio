@@ -3,15 +3,35 @@ import React,{useState} from 'react'
 const Cursus = () => {
 	const [experiences, setExperiences] = useState([
 		{
-			date: "Avril 2022 jusqu'à ce jour",
-			title: "Développeur web Full Stack (PHP-JS)",
-			description: "Développement de logiciel comptable avec Angular JS, CodeIgniter, jQuery, MySQL, HMVC."
+			date: "Fevrier 2024 - Avril 2024",
+			title: "Projet API Licences utilisateus  ",
+			description: "API"
 		},
 		{
-			date: "Avril 2022 jusqu'à ce jour",
-			title: "Développeur web Full Stack (PHP-JS)",
-			description: "Développement de logiciel comptable avec Angular JS, CodeIgniter, jQuery, MySQL, HMVC."
+			date: "Décembre 2023 - Janvier 2024",
+			title: "Projet API Plateforme SMS",
+			description: "SMS."
 		},
+		{
+			date: "Septembre 2023 - Novembre 2023",
+			title: "Projet Gescom (Gestion commerciale)",
+			description: "Gescom"
+		},
+		{
+			date: "Juin 2023 - Août 2023",
+			title: "Projet CRM",
+			description: "Développement de gestion "
+		},
+		{
+			date: "Janvier 2023 - Mai 2023",
+			title: "Projet Paie",
+			description: "Paie "
+		},
+		{
+			date: "Avril 2022 - Janvier 2023",
+			title: "Projets Comptabilité",
+			description: "Compta"
+		}
 	]);
 
 	const experienceItems = experiences.map((experience,index)=>(
