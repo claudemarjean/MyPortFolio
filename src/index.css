@@ -849,12 +849,7 @@ a:hover {
   margin-left: 10px;
 }
 
-@media (min-width: 767px) {
-  .about-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
-}
+
 
 .skill-mf span {
   color: #4e4e4e;

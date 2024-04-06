@@ -3,6 +3,7 @@ import About from "./main/About";
 import Blog from "./main/Blog";
 import Service from "./main/Service";
 import Cursus from "./main/Cursus";
+import Accordion from "./main/Accordion"
 
 const Main = () =>{
     return(
@@ -10,6 +11,7 @@ const Main = () =>{
             <About/>
             <Cursus/>
             <Service/>
+            <Accordion/>
             <Blog/>
         </main>
     );
