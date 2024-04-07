@@ -69,7 +69,9 @@ const Cursus = () => {
           data-bs-parent="#accordionExample"
         >
           <div className="accordion-body">
-            <strong>{experience.description}</strong> {experience.description}
+            <strong>{experience.date}</strong>
+            <br/>
+            {experience.description}
           </div>
         </div>
       </div>

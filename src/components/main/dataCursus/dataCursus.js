@@ -16,7 +16,7 @@ export const dataExperiences = [
     {
       date: "Fevrier 2024 - Avril 2024",
       title: "Projet API Licences utilisateurs",
-      description: "API",
+      description: "Création des points d'accès (endpoints) pour obtenir les profils,les droits et les accès de chaque utilisateur par logiciel,permettant à l'utilisateur une gestion complète desautorisations.",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
       descriptionImage : "description Licences Uitilisateurs",
@@ -26,7 +26,7 @@ export const dataExperiences = [
     {
       date: "Décembre 2023 - Janvier 2024",
       title: "Projet API Plateforme SMS",
-      description: "SMS.",
+      description: "Transition d'une plateforme SMS, API de gestion de SMS pour l'entreprise, intégrant l'adaptation des API de SOAP à REST garantissant la continuité des opérations.",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
       descriptionImage: "descritpion image",
@@ -35,38 +35,38 @@ export const dataExperiences = [
     {
       date: "Septembre 2023 - Novembre 2023",
       title: "Projet Gescom (Gestion commerciale)",
-      description: "Gescom",
+      description: "Conception et réalisation de la gestion des document commerciaux sur le bon de commande et bon de livraison des clients.",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
-      descriptionImage: "descritpion image",
-      imageName: ""
+      descriptionImage: "Gescom",
+      imageName: "imageGescom"
     },
     {
       date: "Juin 2023 - Août 2023",
       title: "Projet CRM",
-      description: "Développement de gestion ",
+      description: "Conception et réalisation de la gestion des contacts clients, des devis, et envoi des e-mails pour les devis. ",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
       descriptionImage: "descritpion image",
-      imageName: ""
+      imageName: "imageCRM"
     },
     {
       date: "Janvier 2023 - Mai 2023",
       title: "Projet Paie",
-      description: "Paie ",
+      description: "Conception et réalisation d'un module pour la validation et la diffusion précise des bulletins de paie dans l'application web\"Paie\", pour sa diffusion dans l'application mobile \"Bulletinmobile\". ",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
       descriptionImage: "descritpion image",
-      imageName: ""
+      imageName: "imagePaie"
     },
     {
       date: "Avril 2022 - Janvier 2023",
       title: "Projets Comptabilité",
-      description: "Compta",
+      description: "Conception et développement de fonctionnalités avancées de gestion des écritures comptables en multi-devises. Gestion réactive des problèmes clients afin d'améliorer l'expérience utilisateur, et attribution de droits de communication spécifiques pour simplifier la déclaration fiscale.",
       titreImage: "titre image",
       sousTitreImage: "sous titre image",
       descriptionImage: "descritpion image",
-      imageName: ""
+      imageName: "comptaOne"
     }
   ];
   
