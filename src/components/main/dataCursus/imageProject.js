@@ -4,6 +4,8 @@ import imageGescom from '../../../assets/images/imagesProjectExperiences/Gescom.
 import imageCRM from '../../../assets/images/imagesProjectExperiences/devisCRM.jpg';
 import imagePaie from '../../../assets/images/imagesProjectExperiences/paie.jpg';
 import comptaOne from '../../../assets/images/imagesProjectExperiences/compta1.jpg';
+import marvelQuizTwo from '../../../assets/images/imagesProjectExperiences/marvelQuiz2.jpg';
+
 
 
 export   const imageFiles = {
@@ -12,5 +14,6 @@ export   const imageFiles = {
     imageGescom: imageGescom,
     imageCRM : imageCRM,
     imagePaie : imagePaie,
-    comptaOne : comptaOne
+    comptaOne : comptaOne,
+    marvelQuizTwo : marvelQuizTwo
   }

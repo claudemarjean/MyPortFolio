@@ -42,6 +42,15 @@ export const dataExperiences = [
       imageName: "imageGescom"
     },
     {
+      date: "Juin 2023 - Septembre 2023",
+      title: "Projet Quiz Marvel",
+      description: "Conception et développement d'un site de quiz interactif en React.js, mettant en œuvre les Hooks React pour la gestion de l'état et la logique de composant.",
+      titreImage: "Marvel Quiz",
+      sousTitreImage: "Page Quiz",
+      descriptionImage: "descritpion image",
+      imageName: "marvelQuizTwo"
+    },
+    {
       date: "Juin 2023 - Août 2023",
       title: "Projet CRM",
       description: "Conception et réalisation de la gestion des contacts clients, des devis, et envoi des e-mails pour les devis. ",
