@@ -1,60 +1,20 @@
 import React, { useState, useEffect } from 'react';
+import {dataEducation, dataExperiences} from './dataCursus/dataCursus';
+import {imageFiles} from  './dataCursus/imageProject';
 
 const Cursus = () => {
-  const dataEducation = [
-    {
-      date: "Avril 2022 - Janvier 2023",
-      title: "bosy",
-      description: "Compta"
-    },
-    {
-      date: "Avril 2022 - Janvier 2023",
-      title: "education",
-      description: "Compta"
-    }
-  ];
-
-  const dataExperiences = [
-    {
-      date: "Fevrier 2024 - Avril 2024",
-      title: "Projet API Licences utilisateurs",
-      description: "API"
-    },
-    {
-      date: "Décembre 2023 - Janvier 2024",
-      title: "Projet API Plateforme SMS",
-      description: "SMS."
-    },
-    {
-      date: "Septembre 2023 - Novembre 2023",
-      title: "Projet Gescom (Gestion commerciale)",
-      description: "Gescom"
-    },
-    {
-      date: "Juin 2023 - Août 2023",
-      title: "Projet CRM",
-      description: "Développement de gestion "
-    },
-    {
-      date: "Janvier 2023 - Mai 2023",
-      title: "Projet Paie",
-      description: "Paie "
-    },
-    {
-      date: "Avril 2022 - Janvier 2023",
-      title: "Projets Comptabilité",
-      description: "Compta"
-    }
-  ];
 
   const [activeAccordion, setActiveAccordion] = useState(null);
   const [mode, setMode] = useState('experiences');
   const [experiences, setExperiences] = useState(dataExperiences);
   const [imagesProjectEtat, setImageProject] = useState(true);
   const [elementImage, setElementImage] = useState({
-	entete: dataExperiences[0].title
+    entete: dataExperiences[0].title,
+    descriptionImage : dataExperiences[0].descriptionImage,
+    titreImage : dataExperiences[0].titreImage,
+    sousTitreImage: dataExperiences[0].sousTitreImage,
+    imageName: dataExperiences[0].imageName
   });
-  
   
 
   useEffect(() => {
@@ -67,7 +27,15 @@ const Cursus = () => {
   }, [mode]);
 
   const toggleAccordion = (accordionId) => {
+    let idImage = accordionId.match(/\d+/)[0]; // prend l'id pour l'image à partir de collapse
     setActiveAccordion(activeAccordion === accordionId ? null : accordionId);
+    setElementImage({
+      entete: dataExperiences[idImage].title,
+      descriptionImage : dataExperiences[idImage].descriptionImage,
+      titreImage : dataExperiences[idImage].titreImage,
+      sousTitreImage: dataExperiences[idImage].sousTitreImage,
+      imageName: dataExperiences[idImage].imageName
+    });
   };
 
   const toggleEducation = () => {
@@ -109,21 +77,19 @@ const Cursus = () => {
   ));
 
   const imageProjet = (
-	<div className="card mb-3">
-			<h3 className="card-header">{elementImage.entete}</h3>
-			<div className="card-body">
-				<h5 className="card-title">Traitement spécial du titre</h5>
-				<h6 className="card-subtitle text-muted">Sous-titre de la carte d'assistance</h6>
-			</div>
-			<svg xmlns="http://www.w3.org/2000/svg" className="d-block user-select-none" width="100%" height="200" aria-label="Espace réservé : Capuchon de l'image" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style={{ fontSize: '1.125rem', textAnchor: 'middle' }}>
-				<rect width="100%" height="100%" fill="#868e96"></rect>
-				<text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-			</svg>
-			<div className="card-body">
-				<p className="card-text">Quelques exemples de texte rapides pour s'appuyer sur le titre de la carte et constituer l'essentiel du contenu de la carte.</p>
-			</div>
-		</div>
+    <div className="card mb-3">
+      <h3 className="card-header">{elementImage.entete}</h3>
+      <div className="card-body">
+        <h5 className="card-title">{elementImage.titreImage}</h5>
+        <h6 className="card-subtitle text-muted">{elementImage.sousTitreImage}</h6>
+      </div>
+      <img src={imageFiles[elementImage.imageName]} alt={`${elementImage.imageName}`} className="img-fluid" />
+      <div className="card-body">
+        <p className="card-text">{elementImage.descriptionImage}</p>
+      </div>
+    </div>
   );
+  
 
   const contentExperienceEducation = (
 	imagesProjectEtat ? (
