@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import   './assets/css/tabsArea.css'; 
+import './assets/css/bootstraphero.min.css'; 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import 'bootstrap/dist/css/bootstrap.min.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import 'lightbox2/dist/css/lightbox.min.css';
 import Swiper from 'swiper';

@@ -849,12 +849,7 @@ a:hover {
   margin-left: 10px;
 }
 
-@media (min-width: 767px) {
-  .about-mf .box-pl2 {
-    margin-top: 3rem;
-    padding-left: 0rem;
-  }
-}
+
 
 .skill-mf span {
   color: #4e4e4e;
@@ -912,6 +907,7 @@ a:hover {
   text-transform: uppercase;
   text-align: center;
   padding: 0.4rem 0;
+  color: black
 }
 
 .service-box .s-description {
@@ -1483,3 +1479,4 @@ footer .credits {
 footer .credits a {
   color: #fff;
 }
+
