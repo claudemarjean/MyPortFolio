@@ -21,7 +21,7 @@ const Service = () => {
                 <span className="ico-circle"><i className="bi bi-display"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Front-End Web Development</h2>
+                <h2 className="s-title" >Front-End Web Development</h2>
                 <p className="s-description text-center"> 
                   Full Stack Web Developer, specializing in Front-End, proficient in HTML, CSS, JavaScript, React JS, Angular JS, D3JS. Creates captivating interfaces, delivering an exceptional user experience.
                 </p>
@@ -31,7 +31,7 @@ const Service = () => {
           <div className="col-md-4">
             <div className="service-box">
               <div className="service-ico">
-                <span className="ico-circle"><i className="bi bi-server"></i></span>
+                <span className="ico-circle"><i className="bi bi-code-slash"></i></span>
               </div>
               <div className="service-content">
                 <h2 className="s-title">Back-End Web Development</h2>

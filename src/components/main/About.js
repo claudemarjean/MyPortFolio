@@ -58,7 +58,7 @@ const About = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="more-info text-start ">
+                                        <div className="more-info text-start " style={{ color: 'black' }}>
                                             <ul className="list-ico"> 
                                                 <li><span className="bi bi-geo-alt"></span>Madagascar</li>
                                                 <li><span className="bi bi-phone"></span>+261 34 50 488 88</li>

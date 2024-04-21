@@ -10,7 +10,7 @@ const Main = () =>{
             <About/>
             <Cursus/>
             <Service/>
-            <Blog/>
+            {/* <Blog/> */}
         </main>
     );
 }
