@@ -8,12 +8,13 @@ const Cursus = () => {
   const [mode, setMode] = useState('experiences');
   const [experiences, setExperiences] = useState(dataExperiences);
   const [imagesProjectEtat, setImageProject] = useState(true);
+  const [imageAffichage, setImageAffichage] = useState(dataExperiences);
   const [elementImage, setElementImage] = useState({
-    entete: dataExperiences[0].title,
-    descriptionImage : dataExperiences[0].descriptionImage,
-    titreImage : dataExperiences[0].titreImage,
-    sousTitreImage: dataExperiences[0].sousTitreImage,
-    imageName: dataExperiences[0].imageName
+    entete: imageAffichage[0].title,
+    descriptionImage : imageAffichage[0].descriptionImage,
+    titreImage : imageAffichage[0].titreImage,
+    sousTitreImage: imageAffichage[0].sousTitreImage,
+    imageName: imageAffichage[0].imageName
   });
   
 
@@ -21,31 +22,37 @@ const Cursus = () => {
     if (mode === 'education') {
       setExperiences(dataEducation);
     }
-	if (mode === 'experiences') {
-		setExperiences(dataExperiences);
-	  }
+    if (mode === 'experiences') {
+      setExperiences(dataExperiences);
+      }
+
+    console.log('mode:'+mode)
   }, [mode]);
 
   const toggleAccordion = (accordionId) => {
     let idImage = accordionId.match(/\d+/)[0]; // prend l'id pour l'image à partir de collapse
     setActiveAccordion(activeAccordion === accordionId ? null : accordionId);
     setElementImage({
-      entete: dataExperiences[idImage].title,
-      descriptionImage : dataExperiences[idImage].descriptionImage,
-      titreImage : dataExperiences[idImage].titreImage,
-      sousTitreImage: dataExperiences[idImage].sousTitreImage,
-      imageName: dataExperiences[idImage].imageName
+      entete: experiences[idImage].title,
+      descriptionImage : experiences[idImage].descriptionImage,
+      titreImage : experiences[idImage].titreImage,
+      sousTitreImage: experiences[idImage].sousTitreImage,
+      imageName: experiences[idImage].imageName
     });
   };
 
   const toggleEducation = () => {
-	setImageProject(false);
+    console.log('toggleEducation');
+	  setImageProject(false);
     setMode('education');
+    setImageAffichage(dataEducation);
   };
 
   const toggleExperience = () => {
-	setImageProject(true);
+	  setImageProject(true);
     setMode('experiences');
+    
+    setImageAffichage(dataExperiences);
   };
 
   const experienceItems = experiences.map((experience, index) => (
@@ -91,6 +98,20 @@ const Cursus = () => {
       </div>
     </div>
   );
+
+  const imageEducation = (
+    <div className="card mb-3">
+      <h3 className="card-header">{elementImage.entete}</h3>
+      <div className="card-body">
+        <h5 className="card-title">{elementImage.titreImage}</h5>
+        <h6 className="card-subtitle text-muted">{elementImage.sousTitreImage}</h6>
+      </div>
+      <img src={imageFiles[elementImage.imageName]} alt={`${elementImage.imageName}`} className="img-fluid" />
+      <div className="card-body">
+        <p className="card-text">{elementImage.descriptionImage}</p>
+      </div>
+    </div>
+  );
   
 
   const contentExperienceEducation = (
@@ -104,9 +125,14 @@ const Cursus = () => {
 		</div>
 	  </>
 	) : (
-	  <div className='col-sm-6 mx-auto'>
-		{experienceItems}
-	  </div>
+    <>
+      <div className='col-sm-6 mx-auto'>
+        {experienceItems}
+      </div>
+      <div className='col-sm-6'>
+        {imageEducation}
+      </div>
+    </>
 	)
   );
   

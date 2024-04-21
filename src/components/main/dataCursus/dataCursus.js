@@ -2,13 +2,21 @@
 export const dataEducation = [
     {
       date: "Avril 2022 - Janvier 2023",
-      title: "bosy",
-      description: "Compta"
+      title: "ENI M2",
+      description: "Obtention du diplôme de Master II professionnelle",
+      titreImage: "titre image",
+      sousTitreImage: "sous titre image",
+      descriptionImage : "description Licences Uitilisateurs",
+      imageName: "imageLicenceUtilisateur"
     },
     {
       date: "Avril 2022 - Janvier 2023",
-      title: "education",
-      description: "Compta"
+      title: "Licences",
+      description: "Obtention du diplôme Licences",
+      titreImage: "titre image",
+      sousTitreImage: "sous titre image",
+      descriptionImage : "description Licences Uitilisateurs",
+      imageName: "imageLicenceUtilisateur"
     }
   ];
   
