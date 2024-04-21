@@ -14,12 +14,12 @@ const Hero = () => {
       <div className="hero-content display-table">
         <div className="table-cell">
           <div className="container">
-            <h1 className="hero-title mb-4">I am Marjean Claude</h1>
+            <h1 className="hero-title mb-4">Je suis Marjean Claude</h1>
             <ReactTyped
               strings={[
-                'developer front-End',
-                'Developer Back-End',
-                'Multimedia Content Creator'
+                'Développeur front-End',
+                'Développeur Back-End',
+                'Créateur de contenu multimédia'
               ]}
               typeSpeed={40}
               backSpeed={50}

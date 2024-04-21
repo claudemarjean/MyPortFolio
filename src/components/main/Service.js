@@ -23,7 +23,8 @@ const Service = () => {
               <div className="service-content">
                 <h2 className="s-title" >Front-End Web Development</h2>
                 <p className="s-description text-center"> 
-                  Full Stack Web Developer, specializing in Front-End, proficient in HTML, CSS, JavaScript, React JS, Angular JS, D3JS. Creates captivating interfaces, delivering an exceptional user experience.
+                  
+                  Développeur Web Full Stack, spécialisé en Front-End, maîtrisant HTML, CSS, JavaScript, React JS, Angular JS, D3JS. Crée des interfaces captivantes offrant une expérience utilisateur exceptionnelle.
                 </p>
               </div>
             </div>
@@ -36,7 +37,8 @@ const Service = () => {
               <div className="service-content">
                 <h2 className="s-title">Back-End Web Development</h2>
                 <p className="s-description text-center">
-                  Experienced Full Stack web developer specializing in Back-End development, with expertise in PHP, CodeIgniter, Symfony, for crafting robust Back-End systems for seamless web applications.
+                  
+                  Développeur Web Full Stack expérimenté spécialisé dans le développement Back-End, avec une expertise en PHP, CodeIgniter, Symfony, pour créer des systèmes Back-End robustes pour des applications web fluides.
                 </p>
               </div>
             </div>
@@ -49,7 +51,8 @@ const Service = () => {
               <div className="service-content">
                 <h2 className="s-title">Photographer</h2>
                 <p className="s-description text-center">
-                  Photographer and Videographer with expertise in video shooting, editing, photo retouching, and the creation of compelling advertising materials.
+                  
+                  Photographe et vidéaste avec une expertise dans la prise de vue vidéo, le montage, la retouche photo et la création de matériel publicitaire percutant.
                 </p>
               </div>
             </div>
