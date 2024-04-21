@@ -135,7 +135,7 @@ const Cursus = () => {
   
 
   return (
-    <section className="mytabs_area p_120">
+    <section id="experiences" className="mytabs_area p_120">
       <div className="container">
         <div className='row'>
           <div className='col-sm-4 mx-auto'>
