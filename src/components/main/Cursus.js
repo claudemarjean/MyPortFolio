@@ -137,10 +137,22 @@ const Cursus = () => {
   return (
     <section id="experiences" className="mytabs_area p_120">
       <div className="container">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="title-box text-center">
+              <h3 className="title-a">
+                Expériences
+              </h3>
+              <div className="line-mf"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
         <div className='row'>
           <div className='col-sm-4 mx-auto'>
             <div className='row'>
-              <div className='col-sm-6'>
+              <div className='col-sm-12'>
                 <button
                   type="button"
                   className={`btn btn-outline-light ${mode === 'experiences' ? 'active' : ''}`}
@@ -148,14 +160,14 @@ const Cursus = () => {
                   <span style={{ verticalAlign: 'inherit' }}>Mes expériences</span>
                 </button>
               </div>
-              <div className='col-sm-6'>
+              {/* <div className='col-sm-6'>
                 <button
                   type="button"
                   className={`btn btn-outline-light ${mode === 'education' ? 'active' : ''}`}
                   onClick={toggleEducation}>
                   <span style={{ verticalAlign: 'inherit' }}>Mon éducation</span>
                 </button>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

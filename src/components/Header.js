@@ -7,9 +7,9 @@ const Header = () => {
         <h1 className="logo"><a href="index.html"></a></h1>
         <nav id="navbar" className="navbar">
           <ul>
-            <li><a className="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a className="nav-link scrollto" href="#about">About</a></li>
-            <li><a className="nav-link scrollto" href="#experiences">experiences</a></li>
+            <li><a className="nav-link scrollto active" href="#hero">Accueil</a></li>
+            <li><a className="nav-link scrollto" href="#about">à propos</a></li>
+            <li><a className="nav-link scrollto" href="#experiences">expériences</a></li>
             <li><a className="nav-link scrollto" href="#services">Services</a></li>
             {/* <li><a className="nav-link scrollto" href="#blog">Blog</a></li> */}
           </ul>

@@ -5,10 +5,12 @@ import imageCRM from '../../../assets/images/imagesProjectExperiences/devisCRM.j
 import imagePaie from '../../../assets/images/imagesProjectExperiences/paie.jpg';
 import comptaOne from '../../../assets/images/imagesProjectExperiences/compta1.jpg';
 import marvelQuizTwo from '../../../assets/images/imagesProjectExperiences/marvelQuiz2.jpg';
+import claudemarjean from '../../../assets/images/imagesProjectExperiences/claudemarjean.jpeg';
 
 
 
 export   const imageFiles = {
+    claudemarjean : claudemarjean,
     imageLicenceUtilisateur : imageLicenceUtilisateur,
     imageSMSProject : imageSMSProject,
     imageGescom: imageGescom,
