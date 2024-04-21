@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import {dataEducation, dataExperiences} from './dataCursus/dataCursus';
 import {imageFiles} from  './dataCursus/imageProject';
+import {imageFilesEducation} from './dataCursus/imageEducation';
 
 const Cursus = () => {
 
@@ -25,8 +26,6 @@ const Cursus = () => {
     if (mode === 'experiences') {
       setExperiences(dataExperiences);
       }
-
-    console.log('mode:'+mode)
   }, [mode]);
 
   const toggleAccordion = (accordionId) => {
@@ -42,7 +41,6 @@ const Cursus = () => {
   };
 
   const toggleEducation = () => {
-    console.log('toggleEducation');
 	  setImageProject(false);
     setMode('education');
     setImageAffichage(dataEducation);
@@ -51,7 +49,6 @@ const Cursus = () => {
   const toggleExperience = () => {
 	  setImageProject(true);
     setMode('experiences');
-    
     setImageAffichage(dataExperiences);
   };
 
@@ -75,11 +72,11 @@ const Cursus = () => {
           aria-labelledby={`heading${index}`}
           data-bs-parent="#accordionExample"
         >
-          <div className="accordion-body">
+        <div className="accordion-body">
             <strong>{experience.date}</strong>
             <br/>
             {experience.description}
-          </div>
+        </div>
         </div>
       </div>
     </div>
@@ -106,7 +103,7 @@ const Cursus = () => {
         <h5 className="card-title">{elementImage.titreImage}</h5>
         <h6 className="card-subtitle text-muted">{elementImage.sousTitreImage}</h6>
       </div>
-      <img src={imageFiles[elementImage.imageName]} alt={`${elementImage.imageName}`} className="img-fluid" />
+      <img src={imageFilesEducation[elementImage.imageName]} alt={`${elementImage.imageName}`} className="img-fluid" />
       <div className="card-body">
         <p className="card-text">{elementImage.descriptionImage}</p>
       </div>
