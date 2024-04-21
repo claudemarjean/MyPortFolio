@@ -37,17 +37,17 @@ const About = () => {
                                             <div className="about-info">
                                                 <p>
                                                     <span className="title-s">
-                                                        Name:<span> ANDRIAMAHATRADRAIBE</span>
+                                                        <span> ANDRIAMAHATRADRAIBE</span>
                                                     </span>
                                                 </p>
                                                 <p>
                                                     <span className="title-s">
-                                                        Last Name: <span> Marjean Claude</span>
+                                                        <span> Marjean Claude</span>
                                                     </span>
                                                 </p>
                                                 <p>
                                                     <span className="title-s">
-                                                        Profile: <span> full stack developer</span>
+                                                        <span> Développeur Full Stack</span>
                                                     </span>
                                                 </p>
                                             </div>
@@ -78,32 +78,28 @@ const About = () => {
                                 </div>
                                 <div className="col-md-6 text-start">
                                     <div className="skill-mf">
-                                        <p className="title-s"><b>Skill</b></p>
-                                        <span><b>Programming languages</b></span>
+                                        <p className="title-s"><b>Compétences</b></p>
+                                        <span><b>Langages de programmation</b></span>
                                         <div><span>PHP</span></div>
                                         <div><span>Javascript</span></div>
-                                        <hr/>
-                                        <div><span><b>Web technologies</b></span></div>
+                                        <div><span><b>Technologies Web</b></span></div>
                                         <div><span>HTML</span></div>
                                         <div><span>CSS</span></div>
+                                        <div><span>Bootstrap</span></div>
                                         <div><span>JQuery</span></div>
                                         <div><span>React JS</span></div>
+                                        <div><span>Vue Js</span></div>
                                         <div><span>Symfony</span></div>
                                         <div><span>Code Igniter</span></div>
-                                        <hr/>
-                                        <div><span><b>Design methods</b></span></div>
+                                        <div><span><b>Méthodes de conception</b></span></div>
                                         <div><span>2TUP</span></div>
-                                        <hr/>
-                                        <div><span><b>Modeling language</b></span></div>
+                                        <div><span><b>Langage de modélisation</b></span></div>
                                         <div><span>UML</span>
-                                        <hr/>
-                                        <div><span><b>versioning system</b></span></div>
+                                        <div><span><b>système de gestion des versions</b></span></div>
                                         <div><span>Git</span></div>
-                                        <hr/>
-                                        <div><span><b>Database management</b></span></div>
+                                        <div><span><b>Gestion de base de données</b></span></div>
                                         <div><span>MySQL</span></div>
-                                        <hr/>
-                                        <div><span><b>Graphics software</b></span></div>
+                                        <div><span><b>Logiciel graphique</b></span></div>
                                         <div><span>Adobe Photoshop</span></div></div>
                                         <div></div><span>Adobe Premiere Pro</span>
                                     </div>

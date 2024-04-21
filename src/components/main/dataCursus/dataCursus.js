@@ -21,13 +21,23 @@ export const dataEducation = [
   ];
   
 export const dataExperiences = [
+  {
+    date: "Fevrier 2024 - Avril 2024",
+    title: "Portfolio",
+    description: "Développement d'un portfolio en React.js avec du contenu dynamique.",
+    titreImage: "Portfolio",
+    sousTitreImage: "Mon portfolio",
+    descriptionImage : "Page d'accueil de mon portfolio disponible à l'adresse suivante : claudemarjean.vercel.app",
+    imageName: "claudemarjean"
+    
+  },
     {
       date: "Fevrier 2024 - Avril 2024",
       title: "Projet API Licences utilisateurs",
       description: "Création des points d'accès (endpoints) pour obtenir les profils,les droits et les accès de chaque utilisateur par logiciel,permettant à l'utilisateur une gestion complète desautorisations.",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage : "description Licences Uitilisateurs",
+      titreImage: "Profils utilisateurs",
+      sousTitreImage: "Gestion des droits pour chaque menue",
+      descriptionImage : "C\'est l\'interface de l\'application qui consomme l\'API des licences utilisateurs pour la gestion des profils et des droits d'accès pour chaque menu, afin que toutes les applications utilisent des droits centralisés.",
       imageName: "imageLicenceUtilisateur"
       
     },
@@ -35,18 +45,18 @@ export const dataExperiences = [
       date: "Décembre 2023 - Janvier 2024",
       title: "Projet API Plateforme SMS",
       description: "Transition d'une plateforme SMS, API de gestion de SMS pour l'entreprise, intégrant l'adaptation des API de SOAP à REST garantissant la continuité des opérations.",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage: "descritpion image",
+      titreImage: "API SMS",
+      sousTitreImage: "allmysms",
+      descriptionImage: "Migration de l'API utilisée précédemment par une application, passant de SOAP à l'API REST de allmysms dans une application de gestion des SMS pour l'entreprise.",
       imageName: "imageSMSProject"
     },
     {
       date: "Septembre 2023 - Novembre 2023",
       title: "Projet Gescom (Gestion commerciale)",
       description: "Conception et réalisation de la gestion des document commerciaux sur le bon de commande et bon de livraison des clients.",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage: "Gescom",
+      titreImage: "Documents commerciaux",
+      sousTitreImage: "Module clients",
+      descriptionImage: "Interface du menu des documents commerciaux, incluant les bons de livraison destinés aux clients, permettant l'ajout, la modification et l'exportation précise des documents avec les articles au format PDF.",
       imageName: "imageGescom"
     },
     {
@@ -54,35 +64,35 @@ export const dataExperiences = [
       title: "Projet Quiz Marvel",
       description: "Conception et développement d'un site de quiz interactif en React.js, mettant en œuvre les Hooks React pour la gestion de l'état et la logique de composant.",
       titreImage: "Marvel Quiz",
-      sousTitreImage: "Page Quiz",
-      descriptionImage: "descritpion image",
+      sousTitreImage: "Page de quiz",
+      descriptionImage: "Interface de quiz dans l'application destinée aux fans de Marvel, comprenant des questions à choix multiples qui fournissent une évaluation à la fin, accompagnée d'explications données par les héros de Marvel. Les utilisateurs peuvent accéder à un classement différent en fonction de leurs résultats obtenus.",
       imageName: "marvelQuizTwo"
     },
     {
       date: "Juin 2023 - Août 2023",
       title: "Projet CRM",
       description: "Conception et réalisation de la gestion des contacts clients, des devis, et envoi des e-mails pour les devis. ",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage: "descritpion image",
+      titreImage: "Devis",
+      sousTitreImage: "Module clients",
+      descriptionImage: "Interface de gestion des devis permettant l'ajout, la modification et l'exportation précise des devis pour chaque client sélectionné, avec la possibilité d'envoyer chaque devis par e-mail aux clients correspondants en fonction des contacts.",
       imageName: "imageCRM"
     },
     {
       date: "Janvier 2023 - Mai 2023",
       title: "Projet Paie",
       description: "Conception et réalisation d'un module pour la validation et la diffusion précise des bulletins de paie dans l'application web\"Paie\", pour sa diffusion dans l'application mobile \"Bulletinmobile\". ",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage: "descritpion image",
+      titreImage: "Saisie individuelle",
+      sousTitreImage: "Module Bulletins",
+      descriptionImage: "Interface pour la saisie des bulletins individuelle, comprenant les étapes de préparation, de validation et de diffusion, depuis l'application web jusqu'à l'application mobile.",
       imageName: "imagePaie"
     },
     {
       date: "Avril 2022 - Janvier 2023",
       title: "Projets Comptabilité",
       description: "Conception et développement de fonctionnalités avancées de gestion des écritures comptables en multi-devises. Gestion réactive des problèmes clients afin d'améliorer l'expérience utilisateur, et attribution de droits de communication spécifiques pour simplifier la déclaration fiscale.",
-      titreImage: "titre image",
-      sousTitreImage: "sous titre image",
-      descriptionImage: "descritpion image",
+      titreImage: "écriture",
+      sousTitreImage: "écriture multi-devise",
+      descriptionImage: "Interface de saisie des écritures comptables en multi-devise, avec ajout des documents comptables sur le côté droit pour chaque écriture dans le système de GED (Gestion Électronique des Documents).",
       imageName: "comptaOne"
     }
   ];
