@@ -34,9 +34,9 @@ export const dataExperiences = [
     {
       date: "Fevrier 2024 - Avril 2024",
       title: "Projet API Licences utilisateurs",
-      description: "Création des points d'accès (endpoints) pour obtenir les profils,les droits et les accès de chaque utilisateur par logiciel,permettant à l'utilisateur une gestion complète desautorisations.",
+      description: "Création des points d'accès (endpoints) pour obtenir les profils, les droits et les accès de chaque utilisateur par logiciel,permettant à l'utilisateur une gestion complète des autorisations.",
       titreImage: "Profils utilisateurs",
-      sousTitreImage: "Gestion des droits pour chaque menue",
+      sousTitreImage: "Gestion des droits pour chaque menu",
       descriptionImage : "C\'est l\'interface de l\'application qui consomme l\'API des licences utilisateurs pour la gestion des profils et des droits d'accès pour chaque menu, afin que toutes les applications utilisent des droits centralisés.",
       imageName: "imageLicenceUtilisateur"
       
@@ -53,7 +53,7 @@ export const dataExperiences = [
     {
       date: "Septembre 2023 - Novembre 2023",
       title: "Projet Gescom (Gestion commerciale)",
-      description: "Conception et réalisation de la gestion des document commerciaux sur le bon de commande et bon de livraison des clients.",
+      description: "Conception et réalisation de la gestion des documents commerciaux sur le bon de commande et bon de livraison des clients.",
       titreImage: "Documents commerciaux",
       sousTitreImage: "Module clients",
       descriptionImage: "Interface du menu des documents commerciaux, incluant les bons de livraison destinés aux clients, permettant l'ajout, la modification et l'exportation précise des documents avec les articles au format PDF.",
@@ -80,7 +80,7 @@ export const dataExperiences = [
     {
       date: "Janvier 2023 - Mai 2023",
       title: "Projet Paie",
-      description: "Conception et réalisation d'un module pour la validation et la diffusion précise des bulletins de paie dans l'application web\"Paie\", pour sa diffusion dans l'application mobile \"Bulletinmobile\". ",
+      description: "Conception et réalisation d'un module pour la validation et la diffusion précise des bulletins de paie dans l'application web \"Paie\" , pour sa diffusion dans l'application mobile  \"Bulletinmobile\" . ",
       titreImage: "Saisie individuelle",
       sousTitreImage: "Module Bulletins",
       descriptionImage: "Interface pour la saisie des bulletins individuelle, comprenant les étapes de préparation, de validation et de diffusion, depuis l'application web jusqu'à l'application mobile.",
