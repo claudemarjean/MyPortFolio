@@ -49,7 +49,7 @@ const Service = () => {
                 <span className="ico-circle"><i className="bi bi-camera"></i></span>
               </div>
               <div className="service-content">
-                <h2 className="s-title">Photographer</h2>
+                <h2 className="s-title">Photographe</h2>
                 <p className="s-description text-center">
                   
                   Photographe et vidéaste avec une expertise dans la prise de vue vidéo, le montage, la retouche photo et la création de matériel publicitaire percutant.
