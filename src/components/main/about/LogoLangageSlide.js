@@ -5,8 +5,8 @@ import { Carousel } from 'bootstrap';
 const LogoLangageSlide = () => {
     // Supposons que languages soit un tableau contenant les chemins d'accès aux images des logos des langages
     const languages = [
-        imageLogoSlide.phpLogo, 
         imageLogoSlide.jsLogo,
+        imageLogoSlide.phpLogo, 
         imageLogoSlide.mySQL, 
         imageLogoSlide.css, 
         imageLogoSlide.gitFlow, 
