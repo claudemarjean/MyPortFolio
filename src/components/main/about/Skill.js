@@ -4,7 +4,7 @@ import LogoLangageSlides from './LangageLogoSlides';
 const Skill = () => {
   return (
     <>
-      <div className="col-6 col-md-6 text-start row" style={{maxHeight:'100%'}}>
+      <div className="col-sm-6 text-start row" style={{maxHeight:'100%'}}>
         <div className="skill-mf col-10 col-md-10">
           <p className="title-s"><b>Compétences</b></p>
           <span><b>Langages de programmation</b></span>

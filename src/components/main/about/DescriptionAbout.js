@@ -19,7 +19,7 @@ const DescriptionAbout = () => {
 
     
     return (
-        <div className="col-6 col-md-6" style={{maxWidth:'100%'}}>
+        <div className="col-sm-6" style={{maxWidth:'100%'}}>
             <div className="row">
                 <div className="col-6 col-md-6">
                     <div className="about-img">
