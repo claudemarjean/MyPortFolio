@@ -22,12 +22,12 @@ const LangageLogoSlides = () => {
         height: '100%',
         overflow: 'hidden',
         position: 'relative',
-        maxHeight: '80vh'
+        maxHeight: '100vh'
     };
 
     const scrollContentStyle = {
         display: 'inline-block',
-        animation: 'scroll 30s linear infinite'
+        animation: 'scroll 50s linear infinite'
     };
 
     const keyframes = `
@@ -66,20 +66,21 @@ const LangageLogoSlides = () => {
     useEffect(() => {
     }, [resetCounter]);
 
+    const listeLogo = (
+        languagesLogo.map((logolangage, index) => (
+            <div key={index} style={scrollItemStyle}>
+                <img src={logolangage} style={logoImageStyle} alt={`Logo ${index + 1}`} />
+            </div>
+        ))
+    );
+
     return (
         <div style={scrollWrapperStyle} className="col-2 col-md-2" >
             <style>{keyframes}</style>
             <div style={scrollContentStyle}>
-                {languagesLogo.map((logolangage, index) => (
-                    <div key={index} style={scrollItemStyle}>
-                        <img src={logolangage} style={logoImageStyle} alt={`Logo ${index + 1}`} />
-                    </div>
-                ))}
-                {languagesLogo.map((logolangage, index) => (
-                    <div key={index} style={scrollItemStyle}>
-                        <img src={logolangage} style={logoImageStyle} alt={`Logo ${index + 1}`} />
-                    </div>
-                ))}
+                {listeLogo}
+                {listeLogo}
+                {listeLogo}
             </div>
         </div>
     );
