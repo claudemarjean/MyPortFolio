@@ -1,6 +1,7 @@
 import React from "react";
 import Skill from "./about/Skill";
 import DescriptionAbout from "./about/DescriptionAbout";
+import LangageLogoSlides from "./about/LangageLogoSlides";
 
 const About = () => {
 

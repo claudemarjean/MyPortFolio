@@ -3,7 +3,6 @@ import { imageLogoSlide } from './imageLogoSlide';
 import { Carousel } from 'bootstrap';
 
 const LogoLangageSlide = () => {
-    // Supposons que languages soit un tableau contenant les chemins d'accès aux images des logos des langages
     const languages = [
         imageLogoSlide.jsLogo,
         imageLogoSlide.phpLogo, 
@@ -14,7 +13,8 @@ const LogoLangageSlide = () => {
         imageLogoSlide.Bootstrap, 
         imageLogoSlide.symfony, 
         imageLogoSlide.htmlFive, 
-        imageLogoSlide.jQuery, 
+        imageLogoSlide.jQuery
+        
     ];
 
     useEffect(() => {
