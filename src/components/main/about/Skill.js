@@ -5,6 +5,7 @@ const Skill = () => {
   return (
     <>
       <div className="col-sm-6 text-start row" style={{maxHeight:'100%'}}>
+        <LogoLangageSlides/>
         <div className="skill-mf col-10 col-md-10">
           <p className="title-s"><b>Compétences</b></p>
           <span><b>Langages de programmation</b></span>
@@ -51,7 +52,7 @@ const Skill = () => {
           </ul>
         </div>
 
-        <LogoLangageSlides/>
+        
 
       </div>
       

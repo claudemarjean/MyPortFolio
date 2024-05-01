@@ -22,7 +22,7 @@ const LangageLogoSlides = () => {
         height: '100%',
         overflow: 'hidden',
         position: 'relative',
-        maxHeight: '100vh'
+        maxHeight: '110vh'
     };
 
     const scrollContentStyle = {
@@ -42,7 +42,7 @@ const LangageLogoSlides = () => {
     `;
 
     const logoImageStyle = {
-        maxWidth: '80%',
+        maxWidth: '70%',
         maxHeight: '50%',
         width: 'auto',
         height: 'auto',

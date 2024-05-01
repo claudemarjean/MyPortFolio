@@ -34,7 +34,7 @@ const LogoLangageSlide = () => {
     };
 
     const logoImageStyle = {
-        maxWidth: '50%', // Pour que l'image s'adapte à la largeur du conteneur
+        maxWidth: '40%', // Pour que l'image s'adapte à la largeur du conteneur
         maxHeight: '50%', // Pour que l'image s'adapte à la hauteur du conteneur
         width: 'auto', // Pour que l'image s'adapte à la largeur du conteneur
         height: 'auto', // Pour que l'image s'adapte à la hauteur du conteneur
