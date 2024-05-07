@@ -38,7 +38,7 @@ const Service = () => {
                 <h2 className="s-title">Back-End Web Development</h2>
                 <p className="s-description text-center">
                   
-                  Développeur Web Full Stack expérimenté spécialisé dans le développement Back-End, avec une expertise en PHP, CodeIgniter, Symfony, pour créer des systèmes Back-End robustes pour des applications web fluides.
+                  Développeur Web Full Stack expérimenté spécialisé dans le développement Back-End, avec une expertise en PHP, CodeIgniter, Symfony, pour créer des systèmes Back-End robustes pour des applications web fluides. Capable également de concevoir des bases de données efficaces pour assurer des fonctionnalités complètes
                 </p>
               </div>
             </div>
