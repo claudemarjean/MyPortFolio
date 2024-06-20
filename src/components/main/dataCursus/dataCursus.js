@@ -82,8 +82,8 @@ export const dataExperiences = [
       title: "Projet Paie",
       description: "Conception et réalisation d'un module pour la validation et la diffusion précise des bulletins de paie dans l'application web \"Paie\" , pour sa diffusion dans l'application mobile  \"Bulletinmobile\" . ",
       titreImage: "Saisie individuelle",
-      sousTitreImage: "Module Bulletins",
-      descriptionImage: "Interface pour la saisie des bulletins individuelle, comprenant les étapes de préparation, de validation et de diffusion, depuis l'application web jusqu'à l'application mobile.",
+      sousTitreImage: "Interface pour la saisie des bulletins individuelle, comprenant les étapes de préparation, de validation et de diffusion, depuis l'application web jusqu'à l'application mobile.",
+      descriptionImage: "Ce projet vise à optimiser la gestion des processus de paie dans l'ERP en offrant des outils avancés pour une validation précise et une distribution efficace des bulletins, améliorant ainsi l'expérience utilisateur et la satisfaction globale.",
       imageName: "imagePaie"
     },
     {
