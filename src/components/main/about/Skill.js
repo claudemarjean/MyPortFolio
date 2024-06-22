@@ -11,19 +11,16 @@ const Skill = () => {
           <span><b>Langages de programmation</b></span>
           <ul>
             <li><span>PHP</span></li>
-            <li><span>Javascript</span></li>
+            <li><span>Javascript (ES6 +)</span></li>
           </ul>
           
           <div><span><b>Technologies Web</b></span></div>
           <ul>
-            <li><span>HTML</span></li>
-            <li><span>CSS</span></li>
-            <li><span>Bootstrap</span></li>
-            <li><span>JQuery</span></li>
-            <li><span>React JS</span></li>
-            <li><span>Vue Js</span></li>
-            <li><span>Symfony</span></li>
-            <li><span>Code Igniter</span></li>
+            <li><span>HTML, CSS, JQuery</span></li>
+            <li><span>React JS, Redux JS, Angular JS</span></li>
+            <li><span>React JS, Redux JS, Angular JS</span></li>
+            <li><span>Symfony, CodeIgniter</span></li>
+            <li><span>Docker, Webhook, WebSocket,Redis</span></li>
           </ul>
           <div><span><b>Méthodes de conception</b></span></div>
           <ul>
@@ -41,7 +38,7 @@ const Skill = () => {
           <ul>
             <li><span>MySQL</span></li>
           </ul>
-          <div><span><b>Outil de modélisation de BDD:</b></span></div>
+            <div><span><b>Outil de modélisation de BDD:</b></span></div>
           <ul>
             <li><span>MySQL Workbench</span></li>
           </ul>
@@ -49,6 +46,10 @@ const Skill = () => {
           <ul>
             <li><span>Adobe Photoshop</span></li>
             <li><span>Adobe Premiere Pro</span></li>
+          </ul>
+          <div><span><b>Outils de Gestion de Projet </b></span></div>
+          <ul>
+            <li><span>Trello</span></li>
           </ul>
         </div>
 
