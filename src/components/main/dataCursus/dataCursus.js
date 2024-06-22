@@ -64,7 +64,7 @@ export const dataExperiences = [
       title: "Projet Quiz Marvel",
       description: "Conception et développement d'un site de quiz interactif en React.js, mettant en œuvre les Hooks React pour la gestion de l'état et la logique de composant.",
       titreImage: "Marvel Quiz",
-      sousTitreImage: "Page de quiz",
+      sousTitreImage: "disponible sur : https://marvel-quiz-b896b.firebaseapp.com/",
       descriptionImage: "Interface de quiz dans l'application destinée aux fans de Marvel, comprenant des questions à choix multiples qui fournissent une évaluation à la fin, accompagnée d'explications données par les héros de Marvel. Les utilisateurs peuvent accéder à un classement différent en fonction de leurs résultats obtenus.",
       imageName: "marvelQuizTwo"
     },
@@ -88,12 +88,21 @@ export const dataExperiences = [
     },
     {
       date: "Avril 2022 - Janvier 2023",
-      title: "Projets Comptabilité",
+      title: "Projet Comptabilité",
       description: "Conception et développement de fonctionnalités avancées de gestion des écritures comptables en multi-devises. Gestion réactive des problèmes clients afin d'améliorer l'expérience utilisateur, et attribution de droits de communication spécifiques pour simplifier la déclaration fiscale.",
       titreImage: "écriture",
       sousTitreImage: "écriture multi-devise",
       descriptionImage: "Interface de saisie des écritures comptables en multi-devise, avec ajout des documents comptables sur le côté droit pour chaque écriture dans le système de GED (Gestion Électronique des Documents).",
       imageName: "comptaOne"
+    },
+    {
+      date: "Août 2021 - Septembre 2021",
+      title: "Programmation Linéaire",
+      description: "Développement d'une application pour résoudre graphiquement des équations linéaires complexes avec la technologie D3.js pour la représentation graphique de la résolution. ",
+      titreImage: "Résolution équations Linéaires",
+      sousTitreImage: "disponible sur : https://roplgraphique.vercel.app/",
+      descriptionImage: "Exemple de résolution de minimisation des équations linéaires.",
+      imageName: "roplgraphique"
     }
   ];
   
