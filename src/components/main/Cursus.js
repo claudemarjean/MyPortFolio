@@ -17,6 +17,7 @@ const Cursus = () => {
     sousTitreImage: imageAffichage[0].sousTitreImage,
     imageName: imageAffichage[0].imageName
   });
+  const [imageLoaded, setImageLoaded] = useState(false); 
   
 
   useEffect(() => {
@@ -51,6 +52,10 @@ const Cursus = () => {
     setMode('experiences');
     setImageAffichage(dataExperiences);
   };
+
+  const  handleImageLoaded = () =>{
+    setImageLoaded(true);
+  }
 
   const experienceItems = experiences.map((experience, index) => (
     <div className="accordion" id="accordionExample" key={index}>
@@ -89,7 +94,18 @@ const Cursus = () => {
         <h5 className="card-title">{elementImage.titreImage}</h5>
         <h6 className="card-subtitle text-muted">{elementImage.sousTitreImage}</h6>
       </div>
-      <img src={imageFiles[elementImage.imageName]} alt={`${elementImage.imageName}`} className="img-fluid" />
+      {!imageLoaded &&(
+        <div className="spinner-border text-primary text-center" role="status">
+          <span className="visually-hidden">Chargement...</span>
+        </div>
+      )}
+      <img 
+        src={imageFiles[elementImage.imageName]} 
+        alt={`${elementImage.imageName}`} 
+        className="img-fluid"
+        onLoad={handleImageLoaded} 
+        style={imageLoaded ? {} : {display: 'none'}}
+      />
       <div className="card-body">
         <p className="card-text">{elementImage.descriptionImage}</p>
       </div>
