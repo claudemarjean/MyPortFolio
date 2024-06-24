@@ -23,9 +23,25 @@ const Cursus = () => {
   useEffect(() => {
     if (mode === 'education') {
       setExperiences(dataEducation);
+      setImageAffichage(dataEducation);
+      setElementImage({
+        entete: dataEducation[0].title,
+        descriptionImage: dataEducation[0].descriptionImage,
+        titreImage: dataEducation[0].titreImage,
+        sousTitreImage: dataEducation[0].sousTitreImage,
+        imageName: dataEducation[0].imageName
+      });
     }
     if (mode === 'experiences') {
       setExperiences(dataExperiences);
+      setImageAffichage(dataExperiences);
+      setElementImage({
+        entete: dataExperiences[0].title,
+        descriptionImage: dataExperiences[0].descriptionImage,
+        titreImage: dataExperiences[0].titreImage,
+        sousTitreImage: dataExperiences[0].sousTitreImage,
+        imageName: dataExperiences[0].imageName
+      });
       }
   }, [mode]);
 
@@ -44,13 +60,13 @@ const Cursus = () => {
   const toggleEducation = () => {
 	  setImageProject(false);
     setMode('education');
-    setImageAffichage(dataEducation);
+    
   };
 
   const toggleExperience = () => {
 	  setImageProject(true);
     setMode('experiences');
-    setImageAffichage(dataExperiences);
+    
   };
 
   const  handleImageLoaded = () =>{
@@ -168,7 +184,7 @@ const Cursus = () => {
         <div className='row'>
           <div className='col-sm-4 mx-auto'>
             <div className='row'>
-              <div className='col-sm-12'>
+              <div className='col-sm-6'>
                 <button
                   type="button"
                   className={`btn btn-outline-light ${mode === 'experiences' ? 'active' : ''}`}
@@ -176,14 +192,14 @@ const Cursus = () => {
                   <span style={{ verticalAlign: 'inherit' }}>Mes expériences</span>
                 </button>
               </div>
-              {/* <div className='col-sm-6'>
+              <div className='col-sm-6'>
                 <button
                   type="button"
                   className={`btn btn-outline-light ${mode === 'education' ? 'active' : ''}`}
                   onClick={toggleEducation}>
                   <span style={{ verticalAlign: 'inherit' }}>Mon éducation</span>
                 </button>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
