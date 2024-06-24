@@ -3,7 +3,7 @@ export const dataEducation = [
     {
       date: "2021 - 2022",
       title: "ENI M2",
-      description: "Obtention du diplôme de Master II professionnelle",
+      description: "Obtention du diplôme de Master II professionnel en informatique générale.",
       titreImage: "ENI",
       sousTitreImage: "Ecole Nationale d'Informatique",
       descriptionImage : "40 ème anniversaire de l'Ecole Nationale d'Informatique en 2023",
@@ -12,10 +12,10 @@ export const dataEducation = [
     {
       date: "2019 - 2020",
       title: "Licences",
-      description: "Obtention du diplôme Licences",
+      description: "Obtention du diplôme de Licence professionnelle en informatique générale.",
       titreImage: "ENI",
       sousTitreImage: "Ecole Nationale D'informatique",
-      descriptionImage : "Description ENI One",
+      descriptionImage : "Plan du bâtiment de l'École nationale d'informatique ",
       imageName: "eniTwo"
     }
   ];
