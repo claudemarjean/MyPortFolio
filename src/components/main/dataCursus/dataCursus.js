@@ -22,6 +22,16 @@ export const dataEducation = [
   
 export const dataExperiences = [
   {
+    date: "Juillet 2024 - Août 2024 (Freelance)",
+    title: "Site Web",
+    description: "Développement et maintenance d'un site d'ExtraToo.",
+    titreImage: "Site web Mactoo",
+    sousTitreImage: "Page d'accueil du site (voir : https://www.mactoo.fr/)",
+    descriptionImage : "Le site web de Mactoo, développé avec WordPress et Elementor, propose différents menus pour les produits à vendre, facilitant ainsi la navigation des clients dans le choix des produits et la prise de contact avec Extratoo pour l\'achat des abonnements et des produits.",
+    imageName: "imageMactoo"
+    
+  },
+  {
     date: "Fevrier 2024 - Avril 2024",
     title: "Portfolio",
     description: "Développement d'un portfolio en React.js avec du contenu dynamique.",
