@@ -7,6 +7,7 @@ import comptaOne from '../../../assets/images/imagesProjectExperiences/compta1.j
 import marvelQuizTwo from '../../../assets/images/imagesProjectExperiences/marvelQuiz2.jpg';
 import claudemarjean from '../../../assets/images/imagesProjectExperiences/claudemarjean.jpeg';
 import roplgraphique from '../../../assets/images/imagesProjectExperiences/roplgraphique.jpg';
+import imageMactoo from '../../../assets/images/imagesProjectExperiences/mactoo.png';
 
 
 
@@ -19,5 +20,6 @@ export   const imageFiles = {
     imagePaie : imagePaie,
     comptaOne : comptaOne,
     marvelQuizTwo : marvelQuizTwo,
-    roplgraphique : roplgraphique
+    roplgraphique : roplgraphique,
+    imageMactoo : imageMactoo
   }
